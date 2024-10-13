@@ -1,0 +1,85 @@
+*{
+	font-family:Cambria;
+}
+.header{
+	display:flex;
+	background-color:thistle;
+	padding:10px;
+	justify-content: center;
+    border-radius: 10px;
+}
+
+.header-title{
+	color:rgb(248, 255, 239);
+	font-size: 4em;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.header:hover{
+	background-color: rgb(32, 106, 119);
+}
+
+.judul{
+	display:flex;
+	background-color: rgb(212, 164, 202);
+	padding:5px;
+	margin-top:0px;
+	justify-content: center;
+	font-size: 20px;
+	color:aliceblue;
+    border-radius: 10px;
+}
+
+
+.konten{
+	max-width:500px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.konten-credit{
+	font-size:14px;
+	font-weight:normal;
+}
+
+.penulis{
+	color:#913cff;
+}
+
+.tanggal{
+	color:rgb(86, 201, 19);
+}
+
+span{
+	color:rgb(0, 177, 29);
+}
+
+
+.container{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: center;
+}
+
+.box-preview{
+	width:350px;
+	margin:20px;
+	background-color: rgb(247, 228, 246);
+	padding:10px;
+    border-radius: 20px;
+}
+
+.box-preview-judul{
+	font-size:1.2em;
+	height:60px;
+	font-weight: bold;
+}
+
+.box-preview-credit{
+	font-style:italic;
+}
+
+.box-preview:hover{
+	background-color: #efefef;
+}
